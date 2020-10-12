@@ -779,14 +779,13 @@ footer div img {
         margin: 0px 0px 0px 20px;
     }
 } 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
     
-    .contenedor, body {
+.contenedor, body {
         min-width: 1200px;
-        max-width: 1400px;
-    }
-    
-    nav ul {
+        max-width: 1600px;
+}
+nav ul {
         display: contents;
         list-style: none;
         color: #95989E;
@@ -798,20 +797,19 @@ footer div img {
         align-items: center;
         width: 80%;
         margin-right: 100px;
-        }
+    }
 
-    #proyectos {
+#proyectos {
         border: solid #9B9EA7 2px;
         border-radius: 4px;
         padding: 2px 5px 2px 5px;
         margin: 0px 0px 0px 20px;
     }
-    nav ul li{
+nav ul li{
         line-height: 20pt;   
         margin: 0px 10px 0px 10px;
         }
-
-    .logonav .fa-times, .fa-bars{
+.logonav .fa-times, .fa-bars{
         display: none;
     }
     
@@ -841,39 +839,37 @@ footer div img {
         font-size: 11px;
     }
     
-    header {
+header {
         display: flex;
         justify-content: space-evenly;
-        
-        
     }
-    .cajas {
+.cajas {
         width: 46%;
         display: flex;
         align-self: flex-end;
         margin-right: 30px;
         
     }
-    .segundo {
+.segundo {
         display: flex;
         align-self: flex-end;
         width: 46%;
         margin: 0px 30px 0px 0px;
         
     }
-    .segundo p {
+.segundo p {
         font-size: 11px;
         margin-bottom: auto;
         margin-top: 10px;
     }
-    header h1 {
+header h1 {
         width: 46%;
         display: flex;
         align-self: flex-end;
         margin-right: 30px;
         margin-bottom: 10px;
     }
-    .introduccion {
+.introduccion {
         width: 46%;
         display: flex;
         align-self: flex-end;
@@ -881,30 +877,30 @@ footer div img {
         margin-top: 5px;
         margin-bottom: 15px;
     }
-    header .imagenHeader img {
+header .imagenHeader img {
         width: 30%;
         margin: 40px 0px 0px 40px;
     }
-    .imagenHeader {
+.imagenHeader {
         display: flex;
         position: absolute;
         width: 100%;
     }
-    #boton2 {
+#boton2 {
         width: 15%;
         margin-bottom: 0;
     }
-    .parteblanca input {
+.parteblanca input {
         width: 20%;
         margin-bottom: 0px;
         margin-left: auto;
     
     }
-    .parteblanca button {
+.parteblanca button {
         width: 20%;
         margin: 0px 0px 0px 393px;
     }
-    .parteblanca {
+.parteblanca {
         display: flex;
         width: 90%;
         flex-wrap: wrap;
@@ -913,56 +909,56 @@ footer div img {
         padding: 10px;
     
     }
-    #diferente {
+#diferente {
         display: block;
         margin-left: 50px;
         order: 1;
     }
-    #negrita {
-        margin-left: 50px; 
-        margin-right: 170px;
+#negrita {
+    margin-left: 50px; 
+    margin-right: 170px;
         
     }
-    .primerBloque {
+.primerBloque {
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-end;
         width: 90%;
         margin-left: 150px;
     }
-    .bloque3 {
+.bloque3 {
         
         margin-top: 0px;
     }
-    .bloque4 {
+.bloque4 {
         
-        margin-top: 0px;
+    margin-top: 0px;
     }
-    footer {
+footer {
         display: flex;
     }
-    footer div img {
+footer div img {
         position: absolute;
         margin-left: 30px;
     }
-    .fondo4 {
+.fondo4 {
         padding: 15px;
     }
-    .contacto {
+.contacto {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .enlaces {
+.enlaces {
         display: flex;
         flex-wrap: nowrap;
         }
-    .logosEnlaces {
+.logosEnlaces {
         display: flex;
         align-items: center;
         margin: 0px 20px 0px 0px;
     }
-    .fondo4 .contacto ul li {
-        margin: 0px 0px 0px 20px;
+.fondo4 .contacto ul li {
+    margin: 0px 0px 0px 20px;
     }
 } 
