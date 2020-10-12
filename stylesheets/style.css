@@ -1,0 +1,781 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    border: solid #EBEBEB 1px;
+}
+nav img {
+    width: 100px;
+    margin: 0px 0px 0px 35px;
+}
+.fa-bars {
+    margin: 0px 40px 0px 0px;
+    color: #6C707A;
+    font-size: 25px;
+}
+.navBar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 63px;
+}
+nav {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 63px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #EBEBEB 1px;
+}
+body {
+    background-color: white;
+}
+header {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: serif caption bold;
+    font-size: 49px;
+    margin-top: 35px;
+    color: #323847;
+}
+header p {
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: #797D88;
+    margin-bottom: 20px;
+}
+.segundo {
+    text-align: center;
+}
+input {
+    border-radius: 4px;
+    padding: 5px;
+    border: solid 1px #EBEBEB;
+    height: 30px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+button {
+    border-radius: 4px;
+    background-color: #4049AA;
+    border: solid #4049AA 1px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 8px;
+    height: 40px;
+    width: 100%;
+}
+.cajas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header .imagenHeader img {
+    width: 100%;
+}
+
+main img {
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.article{
+    background-color: #F4F3F4;
+    text-align: center;
+}
+#boton2{
+    border-radius: 4px;
+    background-color: white;
+    border: solid #B1B6DB 1px;
+    color: #303EA1;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 100%;
+}
+.article h2 {
+    font-weight: bold;
+    color: #323847;
+    padding: 5px 0 5px 0;
+    font-size: 30px;
+    font-family: 'IM Fell Double Pica', serif;
+    font-weight: bold;
+}
+.article p {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #797D88;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.fondo1 {
+    background-color: white;
+}
+.fondo2 {
+    background-color: #F4F3F4;
+}
+.parteblanca {
+    background-color: white;
+    text-align: center; 
+}
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colaborador img {
+    margin: 20px 0 20px 0;
+    width: 40%;
+    height: 40%;
+}
+#losAngeles {
+    width: 65%;
+}
+#negrita {
+    font-weight: bold;
+    color: #323847;
+    padding: 5px 0 5px 0;
+    font-size: 20px;
+}
+#diferente {
+    padding: 5px 0 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: black;
+}
+.parteblanca input {
+    width: 80%;
+}
+.parteblanca button {
+    width: 83%;
+}
+
+footer{
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.fondo3 {
+    background-color: white;
+}
+footer div img {
+    width: 100px;
+    float: left;
+}
+footer div {
+    display: flex;
+    display: inline;
+    align-content: flex-start;
+}
+.titulo {
+    color: #6C707A;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.primerBloque {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px;
+}
+.bloque1 {
+    color: #6D717B;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width: 48%;
+    line-height: 2em; 
+}
+.bloque2 {
+    color: #6D717B;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width: 48%;
+    line-height: 2em; 
+}
+.bloque3 {
+    color: #6D717B;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width: 48%;
+    line-height: 2em; 
+    margin-top: 5px;
+}
+.bloque4 {
+    color: #6D717B;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    width: 48%;
+    line-height: 2em;
+    margin-top: 5px; 
+}
+footer ul li {
+    list-style: none;
+}
+.fondo4 {
+    background-color: #F4F3F4;;
+}
+.fondo4 .contacto ul li{
+    list-style: none;
+    margin: 15px 0 5px 0;
+}
+.fondo4 .contacto ul{
+    color: #6C707A;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+}
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enlaces img{
+    width: 30px;
+    margin-right: 10px;
+}
+.enlaces span{
+    color: #6C707A;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.fa-chevron-down{
+    color: black;
+}
+.fa-twitter{
+    color: #6C707A;
+    font-size: 25px;
+}
+.fa-facebook-f {
+    color: #6C707A;
+    font-size: 20px;
+}
+.fa-youtube {
+    color: #6C707A;
+    font-size: 25px;
+}
+.enlaces i {
+    order: 2;
+    margin-left: 15px;
+    
+}
+.idioma {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    
+}
+.logosEnlaces {
+    display: flex;
+    margin: 5px 0 10px 0;
+}
+
+
+@media screen and (max-width: 480px) {
+
+nav ul {
+    display: none;
+    }
+.logonav .fa-times{
+    display: none;
+    }
+.contenedor, body {
+    max-width: 480px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+nav ul {
+    display: none;
+    }
+.logonav .fa-times{
+    display: none;
+    }
+.contenedor, body {
+    max-width: 767px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 961px) {
+
+nav ul {
+    display: none;
+}
+.logonav .fa-times{
+    display: none;
+}
+.contenedor, body {
+    max-width: 961px;
+    min-width: 767px;
+}
+
+input {
+    width: 40%;
+    display: flex;
+    margin-bottom: 0px;
+    margin: 0px 3px 0px 0px;
+}
+button {
+    width: 20%;
+    margin-top: 0px;
+    margin: 0px 10px 0px 3px;
+    font-size: 12px;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.cajas {
+    width: 100%;
+    display: flex;
+}
+header .imagenHeader img {
+    width: 60%;
+}
+.imagenHeader {
+    display: flex;
+    justify-content: center;
+}
+#boton2 {
+    width: 20%;
+    margin-bottom: 0;
+}
+.colaborador img{
+    width: 30%;
+    margin: 10px;
+    padding: 40px;
+}
+#losAngeles {
+    width: 30%;
+}
+.colaborador {
+    display: flex;
+    flex-flow: row;
+    flex-flow: wrap;
+    width: 80%;
+    justify-content: center;
+    margin-left: 70px;
+}
+.parteblanca input {
+    width: 20%;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+.parteblanca button {
+    width: 20%;
+    margin-top: 0px;
+}
+.parteblanca {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+#diferente {
+    display: block;
+    margin-left: 40px;
+    order: 1;
+}
+#negrita {
+    margin-left: 40px; 
+}
+.primerBloque {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: 80%;
+    margin-left: auto;
+}
+.bloque3 {
+    
+    margin-top: 0px;
+}
+.bloque4 {
+    
+    margin-top: 0px;
+}
+footer {
+    
+    display: flex;
+}
+footer div img {
+    position: absolute;
+}
+.fondo4 {
+    padding: 15px;
+}
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enlaces {
+    display: flex;
+    flex-wrap: nowrap;
+    }
+.logosEnlaces {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+.fondo4 .contacto ul li {
+    margin: 0px 0px 0px 20px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+    nav ul {
+        display: none;
+        }
+    .logonav .fa-times{
+        display: none;
+    }
+    .contenedor, body {
+        max-width: 1024px;
+        min-width: 960px;
+        }
+    .colaborador {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+    .colaborador img{
+        width: 15%;
+        margin: 20px;
+        padding: 20px;
+    }
+    #losAngeles {
+        width: 25%;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    input {
+        width: 40%;
+        display: flex;
+        margin-bottom: 0px;
+        margin: 0px 3px 0px 0px;
+    }
+    button {
+        width: 20%;
+        margin-top: 0px;
+        margin: 0px 10px 0px 3px;
+        font-size: 12px;
+    }
+    header {
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    .cajas {
+        width: 100%;
+        display: flex;
+    }
+    header .imagenHeader img {
+        width: 60%;
+    }
+    .imagenHeader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #boton2 {
+        width: 20%;
+        margin-bottom: 0;
+    }
+    .parteblanca input {
+        width: 20%;
+        margin-bottom: 0px;
+        margin-left: auto;
+    
+    }
+    .parteblanca button {
+        width: 20%;
+        margin-top: 0px;
+    }
+    .parteblanca {
+        display: flex;
+        width: 85%;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        padding: 10px;
+    
+    }
+    #diferente {
+        display: block;
+        margin-left: 40px;
+        order: 1;
+    }
+    #negrita {
+        margin-left: 40px; 
+        margin-right: 60px;
+    }
+    .primerBloque {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        width: 80%;
+        margin-left: auto;
+    }
+    .bloque3 {
+        
+        margin-top: 0px;
+    }
+    .bloque4 {
+        
+        margin-top: 0px;
+    }
+    footer {
+        display: flex;
+    }
+    footer div img {
+        position: absolute;
+    }
+    .fondo4 {
+        padding: 15px;
+    }
+    .contacto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .enlaces {
+        display: flex;
+        flex-wrap: nowrap;
+        }
+    .logosEnlaces {
+        display: flex;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+    .fondo4 .contacto ul li {
+        margin: 0px 0px 0px 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+    .contenedor, body {
+        min-width: 1024px;
+        max-width: 1200px;
+    }
+    
+    nav ul {
+        display: contents;
+        list-style: none;
+        color: #95989E;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+        width: 80%;
+        margin-right: 100px;
+        }
+
+    #proyectos {
+        border: solid #9B9EA7 2px;
+        border-radius: 4px;
+        padding: 2px 5px 2px 5px;
+        margin: 0px 0px 0px 20px;
+    }
+    nav ul li{
+        line-height: 20pt;   
+        margin: 0px 10px 0px 10px;
+        }
+
+    .logonav .fa-times, .fa-bars{
+        display: none;
+    }
+    
+    .colaborador {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+    .colaborador img{
+        width: 15%;
+        margin: 20px;
+        padding: 20px;
+    }
+    #losAngeles {
+        width: 28%;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    input {
+        display: none;
+    }
+    button {
+        width: 33%;
+        margin-top: 0px;
+        margin: 0px 10px 0px 0px;
+        font-size: 11px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    }
+    .cajas {
+        width: 46%;
+        display: flex;
+        align-self: flex-end;
+        margin-right: 30px;
+        
+    }
+    .segundo {
+        display: flex;
+        align-self: flex-end;
+        width: 46%;
+        margin: 0px 30px 0px 0px;
+        
+    }
+    .segundo p {
+        font-size: 11px;
+        margin-bottom: auto;
+        margin-top: 10px;
+    }
+    header h1 {
+        width: 46%;
+        display: flex;
+        align-self: flex-end;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .introduccion {
+        width: 46%;
+        display: flex;
+        align-self: flex-end;
+        margin-right: 30px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    header .imagenHeader img {
+        width: 30%;
+        margin: 40px 0px 0px 40px;
+    }
+    .imagenHeader {
+        display: flex;
+        position: absolute;
+        width: 100%;
+    }
+    #boton2 {
+        width: 15%;
+        margin-bottom: 0;
+    }
+    .parteblanca input {
+        width: 20%;
+        margin-bottom: 0px;
+        margin-left: auto;
+    
+    }
+    .parteblanca button {
+        width: 20%;
+        margin: 0px 0px 0px 393px;
+    }
+    .parteblanca {
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin-left: 10px;
+        padding: 10px;
+    
+    }
+    #diferente {
+        display: block;
+        margin-left: 50px;
+        order: 1;
+    }
+    #negrita {
+        margin-left: 50px; 
+        margin-right: 170px;
+        
+    }
+    .primerBloque {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        width: 90%;
+        margin-left: 150px;
+    }
+    .bloque3 {
+        
+        margin-top: 0px;
+    }
+    .bloque4 {
+        
+        margin-top: 0px;
+    }
+    footer {
+        display: flex;
+    }
+    footer div img {
+        position: absolute;
+        margin-left: 30px;
+    }
+    .fondo4 {
+        padding: 15px;
+    }
+    .contacto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .enlaces {
+        display: flex;
+        flex-wrap: nowrap;
+        }
+    .logosEnlaces {
+        display: flex;
+        align-items: center;
+        margin: 0px 20px 0px 0px;
+    }
+    .fondo4 .contacto ul li {
+        margin: 0px 0px 0px 20px;
+    }
+} 
